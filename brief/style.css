@@ -499,7 +499,12 @@ a {
     .burger {
         display: flex;
     }
-
+    .fill-brief {
+        margin-left: 70px;
+    }
+    .sendBrief {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -587,6 +592,9 @@ a {
     .media {
         width: 100%;
     }
+    .sendBrief {
+        width: 210px;
+    }
 }
 
 /* width */
@@ -650,4 +658,18 @@ button:hover {
     justify-content: center;
     cursor: pointer;
     display: none;
+}
+@media screen and (max-width: 290px) {
+    .fill-brief {
+        margin-left: 120px;
+    }
+    .sendBrief {
+        width: auto;
+    }
+}
+@media screen and (max-width: 210px) {
+
+    .fill-brief {
+        margin-left: 170px;
+    }
 }
