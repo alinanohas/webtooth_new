@@ -1109,7 +1109,7 @@ a {
     .fill p a {
         color: rgba(249, 180, 24, 1);
         font-family: 'OpenSans-300';
-        text-decoration: underline;
+        /* text-decoration: underline; */
     }
 
     .fill>p {
