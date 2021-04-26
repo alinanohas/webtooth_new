@@ -623,7 +623,7 @@ footer {
 .fill p a {
     color: rgba(249, 180, 24, 1);
     font-family: 'OpenSans-300';
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .fill>p {
@@ -664,6 +664,15 @@ a {
     position: relative;
 }
 
+.arright {
+    position: relative;
+    transition: left .5s;
+    left: 0;
+}
+
+.lefttext:hover~.arright {
+    left: 25px;
+}
 
 .media a::after {
     background-color: black;
